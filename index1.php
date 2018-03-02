@@ -10,12 +10,11 @@ include_once 'function1.php';
       	<h2>Home</h2>
       </div>
 </section>
-
+<h2>empty fields</h2>
 <?php
 
 
 include_once 'footer.php';
 
 ?>
-
 

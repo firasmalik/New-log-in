@@ -1,12 +1,10 @@
 
 <?php
 session_start();
-if (!isset($_SESSION['loggedin'])||$_SESSION['loggedin']==false)
-{
-     header('Location:index.php');
-}
 
 ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,9 +20,9 @@ if (!isset($_SESSION['loggedin'])||$_SESSION['loggedin']==false)
 					<a href="index.php">Home</a>
 				</li>
 			</ul>
-			
-
 		</div>
 	</nav>
 </header>
-   <section><h3>You are logged in</h3></section>>
+          <section>
+        	<h3>You are logged in</h3>
+          </section>

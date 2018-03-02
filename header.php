@@ -14,12 +14,12 @@
 				</li>
 			</ul>
 			<div class="nav-login">
-				<form>
+				<form method="POST" action='function1.php'>
 					          
 
-					<input type="text" name="uid" placeholder="Username/email">
+				<input type="text" name="uid" placeholder="Username/email">
 				<input type="password" name="pwd" placeholder="password">
-				<button type='submit' name='submit'>Login</button>
+				<button type='submit'>Login</button>
 
 				</form>
 				<a href="signup.php">Sign up</a>
