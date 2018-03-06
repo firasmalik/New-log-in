@@ -10,7 +10,7 @@ include_once 'function1.php';
       	<h2>Home</h2>
       </div>
 </section>
-<h2>empty fields</h2>
+<h2>Empty fields</h2>
 <?php
 
 

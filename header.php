@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,15 +15,12 @@
 				</li>
 			</ul>
 			<div class="nav-login">
-				<form method="POST" action='function1.php'>
-					          
-
-				<input type="text" name="uid" placeholder="Username/email">
+			  <form method="POST" action='function1.php'>
+			    <input type="text"     name="uid" placeholder="Username/email">
 				<input type="password" name="pwd" placeholder="password">
-				<button type='submit'>Login</button>
-
-				</form>
-				<a href="signup.php">Sign up</a>
+				<button type='submit' name="submit">Login</button>
+			  </form>
+				      <a href="signup.php">Sign up</a>
 			</div>
 		</div>
 	</nav>
