@@ -14,8 +14,8 @@ if(isset($_POST['submit']))
     {
      header("Location:logsuccess.php");
     }
-
-   if(empty($username) && empty($password))
+//empty fields
+    if(empty($username) || empty($password))
     {
      header ("Location:index1.php");
     }
